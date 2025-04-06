@@ -1,0 +1,58 @@
+
+  
+body.home-page {
+    background-image: url('images/background.png'); /* Update with your correct file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  /* Semi-transparent overlay to improve readability */
+  .overlay {
+    background-color: rgba(187, 190, 188, 0.6);
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(3, 3, 5);
+  }
+  
+  /* Title and description */
+  .main-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Button styles */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .button-container button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #070c4f;
+    color: rgb(250, 250, 246);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #3c3ad8;
+  }
+  

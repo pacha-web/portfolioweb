@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .back-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    .back-button:hover {
+      background-color: #333;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="home-page">
+  <a href="landing.html" class="back-button">← Back</a>
+
+  <div class="overlay">
+    <h1 class="main-title">Welcome to Our Resume Showcase</h1>
+    <p class="description">Explore our different resumes tailored for various roles in the IT industry.</p>
+    <div class="button-container">
+      <a href="res1.html"><button>Pachai</button></a>
+      <a href="res2.html"><button>Prince</button></a>
+      <a href="res3.html"><button>Nataraj</button></a>
+      <a href="res4.html"><button>Aswin</button></a>
+    </div>
+  </div>
+</body>
+</html>
